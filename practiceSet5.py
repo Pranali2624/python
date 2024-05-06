@@ -26,4 +26,32 @@ if i>1:
     if i%a==0:
       print(i,"is a prime number")
       break
+# # Write a program to find the sum of first n natural numbers using while loop.
+i=int(input("enter a number"))
+a=1
+sum=0
+while a<=i:
+ sum=sum+a
+ a=a+1
+print(sum)
+
+# # Write a program to calculate the factorial of A given number using for loop.
+i=int(input("enter a number"))
+a=1
+fact=1
+while a<=i:
+  fact=fact*a
+  a=a+1
+print(fact)
+
+# Write a program to print the following star pattern using for loop       
+#                *
+#                * *
+#                * * *
+
+i=0
+while i<=3:
+  print(i*"*")
+  i=i+1
+
 
