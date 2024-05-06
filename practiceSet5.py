@@ -54,4 +54,8 @@ while i<=3:
   print(i*"*")
   i=i+1
 
-
+# Write a program n to print multiplication using for loop in reversed order
+i=int(input("enter a number"))
+for a in range(10,0,-1):
+  print(i,"X",a,"=",(i*a))
+  
