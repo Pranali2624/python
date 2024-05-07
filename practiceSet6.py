@@ -20,3 +20,31 @@ celsfah(5)
 # How do you prevent a python print() function to print ve new line at the end.
 print("hello",end=" ")
 print("world")
+
+# Write a recursive function to calculate the sum of first n natural numbers
+def sum(n):
+  if n==1:
+    return 1
+  else:
+    return n+sum(n-1)
+
+print(sum(5))
+
+# Write a python function to print first on lines of the following pattern
+# *  *  *
+# *  *
+# *
+# for n=3
+
+def pattern(n):
+  for i in range(n,0,-1):
+    print("*"*i)
+
+pattern(3)
+
+# Write a python function which converts inches to cms
+def inchtocm(inch):
+  cm=inch*2.54
+  print("the cm is",cm)
+
+inchtocm(5)
