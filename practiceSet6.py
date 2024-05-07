@@ -48,3 +48,19 @@ def inchtocm(inch):
   print("the cm is",cm)
 
 inchtocm(5)
+
+# Write a python function to remove a given word from a list and stap it at the same time
+def remove(list,word):
+  list.remove(word)
+  print(list)
+list=["hello","world","python"]
+remove(list,"world")
+
+# Write a python function to print multiplication table of a given number
+
+def table(n):
+  for i in range(1,11):
+    print(n,"X",i,"=",n*i)
+
+table(5)
+
