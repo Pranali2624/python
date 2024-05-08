@@ -4,7 +4,7 @@ print("hello world")
 print ("5")
 
 # write a pome in python 
-print("Perfection is no attainable \nbut if we chase perfection\, we can catch excellence")
+print("Perfection is no attainable \nbut if we chase perfection\n, we can catch excellence")
 
 # write a tebale of 5 in pyathon 
 print("5*1=5")
@@ -31,3 +31,5 @@ print("hello world")
 w=6
 
 print("this is a label")
+
+
