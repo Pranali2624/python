@@ -3,3 +3,4 @@ name = set ()
 name1= {12,48}
 print(type(name))
 print(type(name1))
+
