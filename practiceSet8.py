@@ -9,6 +9,7 @@ for i in range (8):
   n=int(input("Enter a number:" ))
   a.add(n)
 print(a)
+
 # Can we have a set with 18 (int) and "18(str) as a values in it?
 a ={18,"18"}
 print(a)
@@ -20,3 +21,12 @@ S.add(20.0)
 S.add("20") 
 # # => Length of & after these operation?
 print(len(S))
+
+# what is the type of S
+S={}
+print(type(S))
+
+# Can you change the values inside a is contained in set S list which
+
+S= {8, 7, 12, "Harry", " [1,2]"}
+print(S)
