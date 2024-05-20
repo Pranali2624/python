@@ -9,3 +9,14 @@ for i in range (8):
   n=int(input("Enter a number:" ))
   a.add(n)
 print(a)
+# Can we have a set with 18 (int) and "18(str) as a values in it?
+a ={18,"18"}
+print(a)
+
+# What will be the length of following set 5.
+S= set ()
+S.add(20)
+S.add(20.0)
+S.add("20") 
+# # => Length of & after these operation?
+print(len(S))
