@@ -13,7 +13,7 @@ date="22/12/2022"
 print(""""Dear """, name ,
 """you are selected!""" ,date )
 
-# write a program to detect double spaces in a string 
+# write a program to  detect double spaces in a string 
 str="     hii there     "
 print(str.find("  "))
 
