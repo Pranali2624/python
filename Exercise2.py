@@ -16,6 +16,6 @@ elif(int(timestamp)>12 and int(timestamp)<16):
 elif(int(timestamp)>16 and int(timestamp)<20):
   print("Good Evening")
 else:
-  print("Good night")
+  print("Good night  ")
   
  
