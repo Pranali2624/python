@@ -7,3 +7,4 @@ print("The value of ", a, "-", 12, "is:", a - b)
 print("The value of ", a, "/", 12, "is:", a / b)
 print("The value of ", a, "//", 12, "is:", a // b)
 print("The value of ", a, "%", 12, "is:", a % b)
+
