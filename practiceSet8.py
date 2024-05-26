@@ -10,6 +10,7 @@ for i in range (8):
   a.add(n)
 print(a)
 
+
 # Can we have a set with 18 (int) and "18(str) as a values in it?
 a ={18,"18"}
 print(a)
