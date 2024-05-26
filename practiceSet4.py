@@ -12,6 +12,7 @@ elif c>a and c>b and c>d:
 else:
   print("The gretest number is ",d)
 
+
 # Write a brogram to find out whether a student is pass or fail, if it requires total 40% and at least 33%, in each subject to pass. Assume pass Subjects and take marks as an input from the user.
 
 a=int(input("Enter the marks of the first   subject:"))
