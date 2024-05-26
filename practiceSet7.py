@@ -8,6 +8,7 @@ marks=[int(input("Enter marks of student 1:")),int(input("Enter marks of student
 marks.sort()
 print(marks)
 
+
 # Check that a tuple cannot be changed in python
 tup=(1,2,3,4,5,6)
 tup[0]=0
