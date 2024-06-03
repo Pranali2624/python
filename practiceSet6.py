@@ -7,7 +7,7 @@ def numbers(a,b,c):
    else:
     print(c, "is greater")
 
-numbers(2,5,7)
+numbers(2,8,7)
   
   # Write a python program  using function to convert Celsius to lo fahrenheit
 
