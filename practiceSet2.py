@@ -8,7 +8,6 @@ a = int(input("Enter a number: "))
 print(a%2)
 
 
-
 # check the type of the variable assigned using input() function 
 a = int(input("Enter a number: "))
 print(type(a))
